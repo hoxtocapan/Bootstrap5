@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/app.css">
 
@@ -37,11 +38,67 @@
     <section class="seccion">
         <h1 class="text-center my-5 heading">Grid</h1>
 
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-md-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nihil commodi
+                    blanditiis eligendi ullam accusantium nostrum. At, commodi ad! Temporibus, ea hic. Vero eaque
+                    ducimus provident ab dolores voluptate minus.</div>
+                <div class="col-sm-6 col-md-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, saepe
+                    aspernatur sint voluptate quisquam, at laudantium fuga doloremque minima quis odit eos
+                    necessitatibus dolore amet sunt quas labore quam tempora.</div>
+                <div class="col-sm-6 col-md-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, saepe
+                    aspernatur sint voluptate quisquam, at laudantium fuga doloremque minima quis odit eos
+                    necessitatibus dolore amet sunt quas labore quam tempora.</div>
+            </div>
+        </div>
+
     </section>
 
     <section class="seccion">
         <h1 class="text-center my-5 heading">Tipografia</h1>
 
+        <h1>Encabezado 1</h1>
+        <h2>Encabezado 2</h2>
+        <h3>Encabezado 3</h3>
+        <h4>Encabezado 4</h4>
+        <h5>Encabezado 5</h5>
+        <h6>Encabezado 6</h6>
+
+        <p>Este es un parrafo</p>
+
+        <!-- Displays -->
+        <h1 class="display-1">Display 1</h1>
+        <h1 class="display-2">Display 2</h1>
+        <h1 class="display-3">Display 3</h1>
+        <h1 class="display-4">Display 4</h1>
+        <h1 class="display-5">Display 5</h1>
+        <h1 class="display-6">Display 6</h1>
+
+        <!-- Font Size -->
+        <h1 class="fs-1">fs-1</h1>
+        <h1 class="fs-2">fs-1</h1>
+        <h1 class="fs-3">fs-1</h1>
+        <h1 class="fs-4">fs-1</h1>
+        <h1 class="fs-5">fs-1</h1>
+        <h1 class="fs-6">fs-1</h1>
+
+        <!-- Utilidades para alinear Texto  -->
+        <p class="text-start">Texto a la Izquierda</p>
+        <p class="text-end">Texto a la derecha</p>
+        <p class="text-center">Texto al centro</p>
+
+        <!-- Con Media queries -->
+        <p class="text-end text-md-center text-lg-start">Texto a la derecha, centro e Izquierda...</p>
+
+        <!-- Capitalización -->
+        <p class="text-lowercase">MINISCULAS</p>
+        <p class="text-uppercase">mayusculas</p>
+        <p class="text-capitalize">Encabezado con tipo capital</p>
+
+        <!-- Controlar font-weight -->
+        <p class="fw-bold">Texto</p>
+        <p class="fw-normal">Texto</p>
+        <p class="fw-light">Texto</p>
     </section>
 
     <section class="seccion">
@@ -52,12 +109,17 @@
     <section class="seccion">
         <h1 class="text-center my-5 heading">Imágenes</h1>
 
+        <img class="img-fluid" src="img/curso_1.jpg" alt="imagen curso">
+
 
     </section>
 
 
     <section class="seccion">
         <h1 class="text-center my-5 heading">Botones</h1>
+
+        <button type="button" class="btn btn-primary">Agregar <i class="bi bi-person-fill-add"></i></button>
+        <button type="button" class="btn btn-danger">ELiminar</button>
 
 
     </section>
@@ -69,6 +131,11 @@
 
     <section class="seccion">
         <h1 class="text-center my-5 heading">Spinners</h1>
+
+        <div class="d-flex justify-content-center">
+            <div class="spinner-border text-primary"></div>
+        </div>
+
 
     </section>
 
@@ -106,5 +173,8 @@
         <h1 class="text-center my-5 heading">Off Canvas</h1>
 
     </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
 
 </html>
