@@ -53,10 +53,11 @@ h3 {
   color: var(--bs-blue) !important;
 }
 .btn-success {
-  background-color: var(--bs-green)!important;
+  background-color: var(--bs-green) !important;
 }
-.bg-primary {
-  background-color: var(--bs-blue)!important;
+.bg-primary,
+.btn-primary {
+  background-color: var(--bs-blue) !important;
 }
 
 .hero {
@@ -67,7 +68,7 @@ h3 {
   background-repeat: no-repeat;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .hero {
     height: 50rem;
   }
@@ -75,10 +76,9 @@ h3 {
 
 /** Productos */
 .producto img {
-
 }
 
-@media(min-width : 768px){
+@media (min-width: 768px) {
   .producto img {
     height: 43rem;
     width: 100%;
@@ -91,4 +91,13 @@ h3 {
 }
 .categoria img:hover {
   transform: scale(1.2);
+}
+
+.galeria li:not(:last-of-type) {
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  padding: 1rem;
+  font-size: 1.6rem;
 }
